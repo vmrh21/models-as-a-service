@@ -8,31 +8,29 @@
       
       
       
-        <link rel="canonical" href="https://opendatahub-io.github.io/models-as-a-service/dev/configuration-and-management/model-access-behavior/">
+        <link rel="canonical" href="https://opendatahub-io.github.io/models-as-a-service/dev/reference/crds/maas-subscription/">
       
       
-        <link rel="prev" href="../model-listing-flow/">
+        <link rel="prev" href="../maas-auth-policy/">
       
-      
-        <link rel="next" href="../maas-model-kinds/">
       
       
         
       
       
-      <link rel="icon" href="../../assets/favicon.ico">
+      <link rel="icon" href="../../../assets/favicon.ico">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
     
     
       
-        <title>Model Access Behavior - ODH Models-as-a-Service Documentation</title>
+        <title>MaaSSubscription - ODH Models-as-a-Service Documentation</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -51,7 +49,7 @@
       
     
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -76,7 +74,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#model-access-behavior" class="md-skip">
+        <a href="#maassubscription" class="md-skip">
           Skip to content
         </a>
       
@@ -94,9 +92,9 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="ODH Models-as-a-Service Documentation" class="md-header__button md-logo" aria-label="ODH Models-as-a-Service Documentation" data-md-component="logo">
+    <a href="../../.." title="ODH Models-as-a-Service Documentation" class="md-header__button md-logo" aria-label="ODH Models-as-a-Service Documentation" data-md-component="logo">
       
-  <img src="../../assets/favicon.ico" alt="logo">
+  <img src="../../../assets/favicon.ico" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -113,7 +111,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Model Access Behavior
+              MaaSSubscription
             
           </span>
         </div>
@@ -233,7 +231,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../.." class="md-tabs__link">
+        <a href="../../.." class="md-tabs__link">
           
   
   
@@ -253,7 +251,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../architecture/" class="md-tabs__link">
+        <a href="../../../architecture/" class="md-tabs__link">
           
   
   
@@ -273,7 +271,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../quickstart/" class="md-tabs__link">
+        <a href="../../../quickstart/" class="md-tabs__link">
           
   
   
@@ -289,8 +287,6 @@
   
   
   
-    
-  
   
     
     
@@ -298,13 +294,11 @@
   
   
   
-    
-  
   
     
     
-      <li class="md-tabs__item md-tabs__item--active">
-        <a href="../quota-and-access-configuration/" class="md-tabs__link">
+      <li class="md-tabs__item">
+        <a href="../../../configuration-and-management/quota-and-access-configuration/" class="md-tabs__link">
           
   
   
@@ -327,7 +321,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../user-guide/self-service-model-access/" class="md-tabs__link">
+        <a href="../../../user-guide/self-service-model-access/" class="md-tabs__link">
           
   
   
@@ -343,11 +337,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="../../reference/maas-api-overview/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../maas-api-overview/" class="md-tabs__link">
           
   
   
@@ -381,9 +377,9 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="ODH Models-as-a-Service Documentation" class="md-nav__button md-logo" aria-label="ODH Models-as-a-Service Documentation" data-md-component="logo">
+    <a href="../../.." title="ODH Models-as-a-Service Documentation" class="md-nav__button md-logo" aria-label="ODH Models-as-a-Service Documentation" data-md-component="logo">
       
-  <img src="../../assets/favicon.ico" alt="logo">
+  <img src="../../../assets/favicon.ico" alt="logo">
 
     </a>
     ODH Models-as-a-Service Documentation
@@ -464,7 +460,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         
   
   
@@ -492,7 +488,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../release-notes/" class="md-nav__link">
+      <a href="../../../release-notes/" class="md-nav__link">
         
   
   
@@ -574,7 +570,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../migration/tier-to-subscription/" class="md-nav__link">
+      <a href="../../../migration/tier-to-subscription/" class="md-nav__link">
         
   
   
@@ -671,7 +667,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../architecture/" class="md-nav__link">
+      <a href="../../../architecture/" class="md-nav__link">
         
   
   
@@ -699,7 +695,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../subscription-overview/" class="md-nav__link">
+      <a href="../../../configuration-and-management/subscription-overview/" class="md-nav__link">
         
   
   
@@ -727,7 +723,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../maas-models/" class="md-nav__link">
+      <a href="../../../configuration-and-management/maas-models/" class="md-nav__link">
         
   
   
@@ -816,7 +812,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../quickstart/" class="md-nav__link">
+      <a href="../../../quickstart/" class="md-nav__link">
         
   
   
@@ -898,7 +894,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../install/prerequisites/" class="md-nav__link">
+      <a href="../../../install/prerequisites/" class="md-nav__link">
         
   
   
@@ -926,7 +922,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../install/platform-setup/" class="md-nav__link">
+      <a href="../../../install/platform-setup/" class="md-nav__link">
         
   
   
@@ -1016,7 +1012,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../install/maas-setup/" class="md-nav__link">
+      <a href="../../../install/maas-setup/" class="md-nav__link">
         
   
   
@@ -1044,7 +1040,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../install/model-setup/" class="md-nav__link">
+      <a href="../../../install/model-setup/" class="md-nav__link">
         
   
   
@@ -1072,7 +1068,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../install/validation/" class="md-nav__link">
+      <a href="../../../install/validation/" class="md-nav__link">
         
   
   
@@ -1100,7 +1096,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../install/troubleshooting/" class="md-nav__link">
+      <a href="../../../install/troubleshooting/" class="md-nav__link">
         
   
   
@@ -1140,31 +1136,28 @@
       
   
   
-    
   
   
-  
     
     
     
     
-      
-        
-        
       
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
         
           
-          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
             
   
   
@@ -1182,7 +1175,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             
@@ -1206,13 +1199,10 @@
       
       
         
-          
-          
-        
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
@@ -1221,7 +1211,7 @@
         <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_1" >
         
           
-          <label class="md-nav__link" for="__nav_4_1" id="__nav_4_1_label" tabindex="">
+          <label class="md-nav__link" for="__nav_4_1" id="__nav_4_1_label" tabindex="0">
             
   
   
@@ -1257,7 +1247,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../quota-and-access-configuration/" class="md-nav__link">
+      <a href="../../../configuration-and-management/quota-and-access-configuration/" class="md-nav__link">
         
   
   
@@ -1285,7 +1275,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../token-management/" class="md-nav__link">
+      <a href="../../../configuration-and-management/token-management/" class="md-nav__link">
         
   
   
@@ -1313,7 +1303,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../tls-configuration/" class="md-nav__link">
+      <a href="../../../configuration-and-management/tls-configuration/" class="md-nav__link">
         
   
   
@@ -1341,7 +1331,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../subscription-known-issues/" class="md-nav__link">
+      <a href="../../../configuration-and-management/subscription-known-issues/" class="md-nav__link">
         
   
   
@@ -1374,31 +1364,28 @@
                 
   
   
-    
   
   
-  
     
     
     
     
       
       
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
         
           
-          
         
-      
-    
-    
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2" checked>
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_2" >
         
           
-          <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="">
+          <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
             
   
   
@@ -1416,7 +1403,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -1434,7 +1421,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../model-setup/" class="md-nav__link">
+      <a href="../../../configuration-and-management/model-setup/" class="md-nav__link">
         
   
   
@@ -1462,7 +1449,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../model-listing-flow/" class="md-nav__link">
+      <a href="../../../configuration-and-management/model-listing-flow/" class="md-nav__link">
         
   
   
@@ -1487,37 +1474,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Model Access Behavior
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../../configuration-and-management/model-access-behavior/" class="md-nav__link">
         
   
   
@@ -1533,148 +1493,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#model-access-changes-during-active-usage" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Model Access Changes During Active Usage
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Model Access Changes During Active Usage">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#overview" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Overview
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#how-model-access-removal-works" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        How Model Access Removal Works
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#expected-behaviors" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Expected Behaviors
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Expected Behaviors">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#1-impact-on-active-requests" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        1. Impact on Active Requests
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#2-policy-propagation-delay" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        2. Policy Propagation Delay
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#3-model-list-visibility-vs-access" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        3. Model List Visibility vs. Access
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#4-token-validity-vs-model-access" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        4. Token Validity vs. Model Access
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#recommended-practices" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Recommended Practices
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#related-documentation" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Related Documentation
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1687,7 +1505,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../maas-model-kinds/" class="md-nav__link">
+      <a href="../../../configuration-and-management/maas-model-kinds/" class="md-nav__link">
         
   
   
@@ -1729,13 +1547,10 @@
       
       
         
-          
-          
-        
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
@@ -1744,7 +1559,7 @@
         <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_3" >
         
           
-          <label class="md-nav__link" for="__nav_4_3" id="__nav_4_3_label" tabindex="">
+          <label class="md-nav__link" for="__nav_4_3" id="__nav_4_3_label" tabindex="0">
             
   
   
@@ -1780,7 +1595,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../maas-controller-overview/" class="md-nav__link">
+      <a href="../../../configuration-and-management/maas-controller-overview/" class="md-nav__link">
         
   
   
@@ -1822,13 +1637,10 @@
       
       
         
-          
-          
-        
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
@@ -1837,7 +1649,7 @@
         <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_4" >
         
           
-          <label class="md-nav__link" for="__nav_4_4" id="__nav_4_4_label" tabindex="">
+          <label class="md-nav__link" for="__nav_4_4" id="__nav_4_4_label" tabindex="0">
             
   
   
@@ -1873,7 +1685,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../advanced-administration/observability/" class="md-nav__link">
+      <a href="../../../advanced-administration/observability/" class="md-nav__link">
         
   
   
@@ -1901,7 +1713,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../advanced-administration/limitador-persistence/" class="md-nav__link">
+      <a href="../../../advanced-administration/limitador-persistence/" class="md-nav__link">
         
   
   
@@ -1929,7 +1741,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../advanced-administration/subscription-cardinality/" class="md-nav__link">
+      <a href="../../../advanced-administration/subscription-cardinality/" class="md-nav__link">
         
   
   
@@ -2026,7 +1838,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../user-guide/self-service-model-access/" class="md-nav__link">
+      <a href="../../../user-guide/self-service-model-access/" class="md-nav__link">
         
   
   
@@ -2058,28 +1870,31 @@
       
   
   
+    
   
   
+  
     
     
     
     
+      
+        
+        
       
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
         
           
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
-        
-          
-          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
             
   
   
@@ -2097,7 +1912,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
             
@@ -2115,7 +1930,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reference/maas-api-overview/" class="md-nav__link">
+      <a href="../../maas-api-overview/" class="md-nav__link">
         
   
   
@@ -2143,7 +1958,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reference/api-reference/" class="md-nav__link">
+      <a href="../../api-reference/" class="md-nav__link">
         
   
   
@@ -2168,28 +1983,31 @@
                 
   
   
+    
   
   
+  
     
     
     
     
       
       
-        
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
         
           
+          
         
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_3" >
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_3" checked>
         
           
-          <label class="md-nav__link" for="__nav_6_3" id="__nav_6_3_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_6_3" id="__nav_6_3_label" tabindex="">
             
   
   
@@ -2207,7 +2025,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_6_3">
             <span class="md-nav__icon md-icon"></span>
             
@@ -2225,7 +2043,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reference/crds/maas-model-ref/" class="md-nav__link">
+      <a href="../maas-model-ref/" class="md-nav__link">
         
   
   
@@ -2253,7 +2071,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reference/crds/external-model/" class="md-nav__link">
+      <a href="../external-model/" class="md-nav__link">
         
   
   
@@ -2281,7 +2099,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reference/crds/maas-auth-policy/" class="md-nav__link">
+      <a href="../maas-auth-policy/" class="md-nav__link">
         
   
   
@@ -2306,10 +2124,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../reference/crds/maas-subscription/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MaaSSubscription
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -2325,6 +2170,70 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#maassubscriptionspec" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MaaSSubscriptionSpec
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ownerspec" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        OwnerSpec
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modelsubscriptionref" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ModelSubscriptionRef
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tokenratelimit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        TokenRateLimit
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -2372,124 +2281,46 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#model-access-changes-during-active-usage" class="md-nav__link">
+  <a href="#maassubscriptionspec" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Model Access Changes During Active Usage
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Model Access Changes During Active Usage">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#overview" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Overview
+        MaaSSubscriptionSpec
       
     </span>
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
-  <a href="#how-model-access-removal-works" class="md-nav__link">
+      
+        <li class="md-nav__item">
+  <a href="#ownerspec" class="md-nav__link">
     <span class="md-ellipsis">
       
-        How Model Access Removal Works
+        OwnerSpec
       
     </span>
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
-  <a href="#expected-behaviors" class="md-nav__link">
+      
+        <li class="md-nav__item">
+  <a href="#modelsubscriptionref" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Expected Behaviors
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Expected Behaviors">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#1-impact-on-active-requests" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        1. Impact on Active Requests
+        ModelSubscriptionRef
       
     </span>
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
-  <a href="#2-policy-propagation-delay" class="md-nav__link">
+      
+        <li class="md-nav__item">
+  <a href="#tokenratelimit" class="md-nav__link">
     <span class="md-ellipsis">
       
-        2. Policy Propagation Delay
+        TokenRateLimit
       
     </span>
   </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#3-model-list-visibility-vs-access" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        3. Model List Visibility vs. Access
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#4-token-validity-vs-model-access" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        4. Token Validity vs. Model Access
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#recommended-practices" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Recommended Practices
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#related-documentation" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Related Documentation
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -2513,43 +2344,138 @@
   
 
 
-<h1 id="model-access-behavior">Model Access Behavior</h1>
-<p>This document describes the expected behaviors and operational considerations when modifying model access (subscription) in the MaaS Platform.</p>
-<h2 id="model-access-changes-during-active-usage">Model Access Changes During Active Usage</h2>
-<h3 id="overview">Overview</h3>
-<p>When a model is removed from a subscription's access list (by updating MaaSAuthPolicy or MaaSSubscription), access revocation takes effect according to how the gateway enforces policies. This section describes the expected behaviors and considerations for administrators.</p>
-<h3 id="how-model-access-removal-works">How Model Access Removal Works</h3>
-<ol>
-<li><strong>Policy Update</strong>: The administrator updates MaaSAuthPolicy or MaaSSubscription to remove access to a model</li>
-<li><strong>Controller Processing</strong>: The maas-controller reconciles the change and updates AuthPolicy/TokenRateLimitPolicy resources</li>
-<li><strong>Gateway Enforcement</strong>: The gateway (via Authorino) enforces the updated policies</li>
-<li><strong>Access Revocation</strong>: Users lose access to the model per the new policy</li>
-</ol>
-<h3 id="expected-behaviors">Expected Behaviors</h3>
-<h4 id="1-impact-on-active-requests">1. Impact on Active Requests</h4>
-<p>Access revocation prevents new requests once the gateway has the updated policy.</p>
-<ul>
-<li><strong>New Requests</strong>: Any request arriving after policy propagation will be denied.</li>
-<li><strong>In-Flight Requests</strong>: Requests that have already passed the authorization gate typically complete successfully.</li>
-</ul>
-<h4 id="2-policy-propagation-delay">2. Policy Propagation Delay</h4>
-<p>There may be a delay between policy update and gateway enforcement. During this window, access behavior can be inconsistent. Wait 1–2 minutes after policy updates before verifying changes.</p>
-<h4 id="3-model-list-visibility-vs-access">3. Model List Visibility vs. Access</h4>
-<p>The <strong>GET /v1/models</strong> endpoint lists models from MaaSModelRef CRs and <strong>filters by access</strong>: it probes each model's endpoint with the client's <strong>Authorization</strong> header. Only models that return 2xx or 405 are included. After access removal, a model the client can no longer access should not appear in their list.</p>
-<h4 id="4-token-validity-vs-model-access">4. Token Validity vs. Model Access</h4>
-<p>API keys and tokens are per-identity, not per-model. Token validity and model access are independent. When access to a model is revoked, existing tokens simply have access to fewer models; users do not need to request new tokens.</p>
-<h3 id="recommended-practices">Recommended Practices</h3>
-<ol>
-<li><strong>Plan Access Changes</strong>: Schedule changes during low-usage periods and notify affected users when possible.</li>
-<li><strong>Verify Changes</strong>: Wait 1–2 minutes after policy updates, then test access.</li>
-<li><strong>Monitor for Issues</strong>: Check maas-controller and gateway logs for policy update errors.</li>
-</ol>
-<h3 id="related-documentation">Related Documentation</h3>
-<ul>
-<li><a href="../quota-and-access-configuration/">Quota and Access Configuration</a> - How to configure subscription and access</li>
-<li><a href="../model-setup/">Model Setup (On Cluster)</a> - How to configure models for MaaS</li>
-<li><a href="../token-management/">Token Management</a> - Understanding token lifecycle</li>
-</ul>
+<h1 id="maassubscription">MaaSSubscription</h1>
+<p>Defines a subscription plan with per-model token rate limits. Creates Kuadrant TokenRateLimitPolicies enforced by Limitador. Must be created in the <code>models-as-a-service</code> namespace.</p>
+<h2 id="maassubscriptionspec">MaaSSubscriptionSpec</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Type</th>
+<th>Required</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>owner</td>
+<td>OwnerSpec</td>
+<td>Yes</td>
+<td>Who owns this subscription</td>
+</tr>
+<tr>
+<td>modelRefs</td>
+<td>[]ModelSubscriptionRef</td>
+<td>Yes</td>
+<td>Models included with per-model token rate limits (each specifies <code>name</code> and <code>namespace</code>)</td>
+</tr>
+<tr>
+<td>tokenMetadata</td>
+<td>TokenMetadata</td>
+<td>No</td>
+<td>Metadata for token attribution and metering</td>
+</tr>
+<tr>
+<td>priority</td>
+<td>int32</td>
+<td>No</td>
+<td>Subscription priority when user has multiple (higher = higher priority; default: 0)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="ownerspec">OwnerSpec</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Type</th>
+<th>Required</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>groups</td>
+<td>[]GroupReference</td>
+<td>No</td>
+<td>Kubernetes group names that own this subscription</td>
+</tr>
+<tr>
+<td>users</td>
+<td>[]string</td>
+<td>No</td>
+<td>Kubernetes user names that own this subscription</td>
+</tr>
+</tbody>
+</table>
+<h2 id="modelsubscriptionref">ModelSubscriptionRef</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Type</th>
+<th>Required</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>name</td>
+<td>string</td>
+<td>Yes</td>
+<td>Name of the MaaSModelRef</td>
+</tr>
+<tr>
+<td>namespace</td>
+<td>string</td>
+<td>Yes</td>
+<td>Namespace where the MaaSModelRef lives</td>
+</tr>
+<tr>
+<td>tokenRateLimits</td>
+<td>[]TokenRateLimit</td>
+<td>No</td>
+<td>Token-based rate limits for this model</td>
+</tr>
+<tr>
+<td>tokenRateLimitRef</td>
+<td>string</td>
+<td>No</td>
+<td>Reference to an existing TokenRateLimit resource</td>
+</tr>
+<tr>
+<td>billingRate</td>
+<td>BillingRate</td>
+<td>No</td>
+<td>Cost per token</td>
+</tr>
+</tbody>
+</table>
+<h2 id="tokenratelimit">TokenRateLimit</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Type</th>
+<th>Required</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>limit</td>
+<td>int64</td>
+<td>Yes</td>
+<td>Maximum number of tokens allowed</td>
+</tr>
+<tr>
+<td>window</td>
+<td>string</td>
+<td>Yes</td>
+<td>Time window (e.g., <code>1m</code>, <code>1h</code>, <code>24h</code>). Pattern: <code>^(\d+)(s|m|h|d)$</code></td>
+</tr>
+</tbody>
+</table>
 
 
 
@@ -2582,7 +2508,7 @@
     <span class="md-icon" title="Created">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="January 14, 2026 03:47:47 UTC">January 14, 2026</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="March 18, 2026 15:47:11 UTC">March 18, 2026</span>
   </span>
 
     
@@ -2637,10 +2563,10 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top", "search.highlight", "search.share", "content.code.copy", "content.code.annotate", "search.suggest", "search.boost", "navigation.instant"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"default": "latest", "provider": "mike"}}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top", "search.highlight", "search.share", "content.code.copy", "content.code.annotate", "search.suggest", "search.boost", "navigation.instant"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"default": "latest", "provider": "mike"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
       
     
   </body>
